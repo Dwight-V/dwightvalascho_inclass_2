@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <script src="./js/index.js" defer></script>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body class="bordered">
+  <header class="bordered">
+    Welcome to the Interactive ABCs of CSS Technology learning Website
+  </header>
+  <main>
+    <p class="bordered">Click on the buttons below to reveal and learn the CSS technology features of the corresponding letters</p>
+
+    <div class="buttons">
+      <div class="col-a">
+        <div id="img-a" class="bordered flex-vert init-hidden">
+          <img src="./assets/img/css-letter-a.png" alt="">
+          <button id="btn-hide-a" class="btn-blue">Hide result</button>
+        </div>
+        <button id="btn-a" class="bordered">A</button>
+      </div>
+
+      <div class="col-b">
+        <div id="img-b" class="bordered flex-vert init-hidden">
+          <img src="./assets/img/css-letter-b.png" alt="">
+          <button id="btn-hide-b" class="btn-blue">Hide result</button>
+        </div>
+        <button id="btn-b" class="bordered">B</button>
+      </div>
+
+      <div class="col-c">
+        <div id="img-c" class="bordered flex-vert init-hidden">
+          <img src="./assets/img/css-letter-c.png" alt="">
+          <button id="btn-hide-c" class="btn-blue">Hide result</button>
+        </div>
+        <button id="btn-c" class="bordered">C</button>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
